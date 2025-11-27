@@ -13,12 +13,12 @@ function addProduct(){
 //update product name
 function updateProductName (){
   products[0]="TelePhone"
-  console.log(students [0])
+  console.log(students)
 }
 
 //removeproducts
 function removeLastProduct(){
-  products.splice(0, 0);
+  products.splice("TelePhone");
   console.log(students)
 }
 
